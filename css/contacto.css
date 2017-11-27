@@ -1,0 +1,133 @@
+/*el fondo de la web */
+body {
+    background-image: url(../imagenes/fondo4.jpg);
+     background-repeat:no-repeat; 
+    background-size: cover;
+}
+
+/*la cabecera de la pagina */
+.cabecera img {
+    font-size: 10px;
+    padding: 7px;
+   border: 3px;
+    background-repeat:no-repeat;
+    font-style: italic;
+    width: 100%;
+    margin: auto;
+}
+
+/*el cuerpo de la pagina */
+
+.cuerpo {
+    background-image: url(../imagenes/fondocontacto.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+/*  autor de la pagina */ 
+
+.autor {
+    background-color:lightgreen;
+}
+
+/* color de los h1 de la pagina */
+
+h1 {
+    background-color: ;
+    color: ;
+}
+
+/* color de los h2 de la pagina */
+
+h2 {
+    background-color:;
+}
+
+ /*menu de la pagina */
+
+#menu ul{
+    padding: 0;
+    list-style: none;
+}
+
+#hmenu > li {
+    display: inline-block;
+} 
+
+#hmenu >li > a{
+    display: block;
+    padding: 10px 5px;
+    width: 90px;
+}
+
+li ul{
+    position: absolute;
+    display: none;
+}
+
+.sub-menu a{
+    display: block;
+    padding: 10px 5px;
+    width: 130px;
+}
+
+li:hover ul{
+    display: block;
+}
+
+#menu, li ul{
+    background: #333;
+}
+
+#hmenu {
+    width: 412px;
+    margin: 0 auto;
+}
+
+#hmenu a{
+    color: #fff;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+#hmenu li:hover{
+    background: #a3cd39;
+    text-shadow: 0 0 2px #000;
+}
+
+/* la secretaria */
+
+.secretaria {
+    text-align: center;
+    display: block;
+    margin: auto;
+}
+/* contacto */
+.contacto {
+    text-align: center;
+    display: block;
+    margin: auto;
+    background-color: chartreuse;
+    color: violet;
+}
+
+/* logo de la pagina*/
+.logo img {
+    width: 100px;
+    height: 100px;
+ }
+/* esto es la bienvenida */
+.bienvenida {
+    text-align: center;
+    display: block;
+    margin: auto;
+}
+/* esto es la bienvenida */
+.despedida {
+    text-align: center;
+    display: block;
+    margin: auto;
+}
+
+
+

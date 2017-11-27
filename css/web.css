@@ -1,0 +1,146 @@
+/*el fondo de la web */
+body {
+    background-image: url(../imagenes/fondo4.jpg);
+     background-repeat:no-repeat;
+    background-size: cover;
+}
+
+/*la cabecera de la pagina */
+.cabecera img {
+    font-size: 10px;
+    padding: 7px;
+   border: 3px;
+    background-repeat:no-repeat;
+    font-style: italic;
+    width: 100%;
+    margin: auto;
+}
+    
+
+/*el cuerpo de la pagina */
+
+.cuerpo {
+    text-align:center;
+     border: 4px;
+    padding: 3px;
+    margin: 5px;
+    background-color: lightgreen;
+}
+
+/*  autor de la pagina */ 
+
+.autor {
+    background-color:lightgreen;
+}
+
+/* color de los h1 de la pagina */
+
+h1 {
+    color: blue;
+}
+
+/* color de los h2 de la pagina */
+
+h2 {
+    color:red;
+}
+
+/* color de los h3 de la pagina */
+h3 {
+    color: #2EFE2E;
+}
+/* logo de la pagina */
+    
+.logo img {
+    width: 100px;
+    height: 100px;
+ }
+
+.tartachocolate {
+    width: 50%;
+    float: left;
+}
+
+.tartafresa {
+    width: 50%;
+    float: left;
+}
+
+.tarta3chocolates {
+    width: 50%;
+    float: left;
+}
+
+.tarta {
+    width: 50%;
+    float: left;
+}
+/* esto es menu */
+#menu ul{
+    padding: 0;
+    list-style: none;
+}
+
+#hmenu > li {
+    display: inline-block;
+} 
+
+#hmenu >li > a{
+    display: block;
+    padding: 10px 5px;
+    width: 90px;
+}
+
+li ul{
+    position: absolute;
+    display: none;
+}
+
+.sub-menu a{
+    display: block;
+    padding: 10px 5px;
+    width: 130px;
+}
+
+li:hover ul{
+    display: block;
+}
+
+#menu, li ul{
+    background: #333;
+}
+
+#hmenu {
+    width: 412px;
+    margin: 0 auto;
+}
+
+#hmenu a{
+    color: #fff;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+#hmenu li:hover{
+    background: #a3cd39;
+    text-shadow: 0 0 2px #000;
+}
+
+ 
+.bienvenida {
+    text-align: center;
+    display: block;
+    margin: auto;
+}
+
+.despedida {
+    text-align: center;
+    display: block;
+    margin: auto;
+}
+
+.cocinero {
+    text-align: center;
+    display: block;
+    margin: auto;
+}
